@@ -3,7 +3,6 @@ const router = express.Router()
 
 router.use(express.static('views'))
 
-
 router.get('/', (req, res, next) => {
     try {
         res.render('index.html')
